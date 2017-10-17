@@ -4,8 +4,8 @@ var VIRA0016 = {
         var div = document.createElement('div'),
         boxes = document.getElementById('boxes');
         div.textContent = "VIRA0016";
-        div.classList.add('box');
-        boxes.appendChild(box);
+        div.classList.add('div');
+        boxes.appendChild(div);
         box.addEventListener('click', this.MClick);
         box.addEventListener('mouseover', this.MOver);
         box.addEventListener('mouseout', this.MOut);
