@@ -6,9 +6,9 @@ var VIRA0016 = {
         div.textContent = "VIRA0016";
         div.classList.add('box');
         boxes.appendChild(box);
-        box.addEventListener('click', MClick);
-        box.addEventListener('mouseover', MOver);
-        box.addEventListener('mouseout', MOut);
+        box.addEventListener('click', this.MClick);
+        box.addEventListener('mouseover', this.MOver);
+        box.addEventListener('mouseout', this.MOut);
 
         function MClick(ev) {
             ev.currentTarget.style.borderColor = "#BBCA76";
